@@ -1,5 +1,5 @@
 // src/index.ts
-// import https  from 'node:https';
+import https  from 'node:https';
 import { Wallet } from 'ethers';
 
 export default {
