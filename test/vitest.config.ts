@@ -5,7 +5,7 @@ export default defineWorkersProject({
 	test: {
 		poolOptions: {
 			workers: {
-				// main: "../dist/index.js",
+				main: "../dist/index.js",
         wrangler: { configPath: path.resolve(__dirname, '../wrangler.toml') },
 			},
 		},
